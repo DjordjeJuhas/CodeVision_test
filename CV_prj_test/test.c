@@ -168,6 +168,8 @@ void main(void)
 {
 // Declare your local variables here
 
+unsigned char test_variable = 0x00;
+
 // Crystal Oscillator division factor: 1
 #pragma optsize-
 CLKPR=0x80;
